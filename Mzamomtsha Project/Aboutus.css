@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+}
+.container {
+    display: flex ;
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 15px 15px 20px black;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.form h2 {
+
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+  }
+
+.side {
+
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightblue;
+    align-items: center;
+    width: 50%;
+
+}
+
+.side img {
+    width: 450px;
+    height: 300px;
+}
+
+img {
+    display: flex;
+    order: 2;
+    align-items: center;
+
+}
+.study {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: lightblue;
+}

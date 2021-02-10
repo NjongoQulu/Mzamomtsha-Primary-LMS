@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: black;
+  background-color:#5995DA; /*Blue*/
+  padding: 20px 0;
+  /*...*/
+  display: flex;
+  justify-content: center; /*Add this*/
+}
+
+.menu {
+border: 10px solid grey; /*For debugging*/
+width: 1365px;
+display: flex;
+justify-content: space-around;
+}
+
+h1 {
+font-family: arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+text-transform: capitalize;
+}
+
+h2{
+  font-family: arial;
+  font-size:22px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+
+p{
+  text-align: center;
+}
+
+body {
+  background-color: inherit;
+}
